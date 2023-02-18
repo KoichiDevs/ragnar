@@ -38,7 +38,7 @@ const Hero = () => {
         <section className='w-full h-screen bg-hero py-20 flex items-center relative'>
             <Nav />
 
-            <div className='px-10 w-fit h-fit text-white lg:text-left text-center'>
+            <div className='px-10 2xl:px-20 w-fit h-fit text-white lg:text-left text-center mx-auto lg:mx-0'>
                 <div className='relative z-10'>
                     <motion.h1 variants={variant} initial="initial" animate="animate"  className='font-kingvoon lg:text-8xl text-5xl'>
                         <motion.span  variants={childVariants}  className='lg:text-9xl text-7xl'>R</motion.span>
@@ -65,8 +65,6 @@ const Hero = () => {
                 </div>
 
 
-
-                <img src="/line.webp" alt="line" className="absolute top-10 z-10 left-10 lg:hidden block w-[13rem]" />
                 <img src="/hero.webp" alt="Hero" className=" absolute bottom-0 right-0 w-[90vh]" />
 
             </div>

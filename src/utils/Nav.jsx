@@ -31,6 +31,8 @@ const Nav = () => {
 
                 <motion.img initial={{width: "0rem"}} animate={{width: "25rem"}} transition={{duration: 0.7}} src="/line.webp" alt="line" className="absolute bottom-[-1rem] lg:block hidden pointer-events-none w-[25rem]" />
 
+                <img src="/logo.webp" alt="Logo" className="w-[5rem] lg:absolute top-32 2xl:w-[6.5rem]" />
+
                 <HiMenuAlt3 className='text-4xl block lg:hidden ml-auto' onClick={setToggle} />
             </div>
         </motion.nav>
