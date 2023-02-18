@@ -1,5 +1,6 @@
 import React from 'react'
 import About from './sections/About'
+import Footer from './sections/Footer'
 import Hero from './sections/Hero'
 import Roadmap from './sections/Roadmap'
 import Tokenomics from './sections/Tokenomics'
@@ -11,6 +12,7 @@ const App = () => {
       <About />
       <Tokenomics />
       <Roadmap />
+      <Footer/>
     </div>
   )
 }
