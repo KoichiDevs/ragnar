@@ -25,7 +25,7 @@ const Roadmap = () => {
 
 
     return (
-        <section className='w-full h-auto py-20 px-10 bg-roadmap bg-center text-white bg-cover'>
+        <section className='w-full h-auto py-20 px-10 bg-roadmap bg-center text-white bg-cover' id="roadmap">
             <h1 className='text-center font-kingvoon text-6xl mt-10'>ROADMAP</h1>
 
             <div className='mx-auto w-fit h-auto mt-10 lg:max-w-[20.5rem] max-w-[18.5rem]'>

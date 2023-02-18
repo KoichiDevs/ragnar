@@ -5,7 +5,7 @@ import { motion } from 'framer-motion'
 
 const Nav = () => {
 
-    const list = ['home', 'ecosystem', 'tokenomics', 'roadmap']
+    const list = ['home', 'about', 'tokenomics', 'roadmap']
     const [active, setActive] = useState(false)
 
     const setToggle = () => {
@@ -29,7 +29,7 @@ const Nav = () => {
                     })}
                 </ul>
 
-                <img src="/line.webp" alt="line" className="absolute bottom-[-1rem] lg:block hidden pointer-events-none w-[25rem]" />
+                <motion.img initial={{width: "0rem"}} animate={{width: "25rem"}} transition={{duration: 0.7}} src="/line.webp" alt="line" className="absolute bottom-[-1rem] lg:block hidden pointer-events-none w-[25rem]" />
 
                 <HiMenuAlt3 className='text-4xl block lg:hidden ml-auto' onClick={setToggle} />
             </div>

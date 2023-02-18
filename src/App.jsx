@@ -7,7 +7,8 @@ import Tokenomics from './sections/Tokenomics'
 
 const App = () => {
   return (
-    <div className='bg-hero'>
+    <div className='bg-hero relative overflow-x-hidden'>
+      <div className='w-2 h-2 absolute top-0 left-0' id="home"></div>
       <Hero />
       <About />
       <Tokenomics />
