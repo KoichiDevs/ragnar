@@ -50,7 +50,7 @@ const Hero = () => {
                     </motion.h1>
                     <motion.h2 initial={{opacity: 0}} animate={{opacity: 0.8}} transition={{duration: 1, delay: 0.4}} className='font-kingvoon opacity-70 lg:text-4xl text-2xl'>THE MEDIEVAL VIKING TOKEN</motion.h2>
                     <motion.p  initial={{opacity: 0}} animate={{opacity: 0.8}} transition={{duration: 1, delay: 0.6}} className='font-poppins opacity-60 max-w-[45rem] lg:mt-7 mt-4 lg:text-lg md:text-sm text-xs'>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        It is a time of Gods, a time of war, where friendship is tested and enemies are made. This is the story of Ragnar, legend to his people and friend to Floki. Their friendship being tested through lies, battles and betrayals. Only true friendships can endure these times and only true warriors are forged in the fire.
                     </motion.p>
 
                     <motion.div initial={{opacity: 0}} animate={{opacity: 0.8}} transition={{duration: 1, delay: 0.8}} className='flex items-center gap-x-4 mt-10 relative z-10 mx-auto w-fit lg:mx-0'>
