@@ -23,7 +23,7 @@ const About = () => {
                     <motion.h1 initial={{ x: 100, opacity: 0 }} animate={titleView ? { x: 0, opacity: 1 } : {}} transition={{ duration: 0.7 }} className='text-5xl font-kingvoon lg:max-w-[35rem] max-w-[30rem] mx-auto lg:mx-0' ref={titleRef}>FROM THE LAND OF VIKINGS</motion.h1>
 
                     <motion.p initial={{ x: 100, opacity: 0 }} animate={titleView ? { x: 0, opacity: 1 } : {}} transition={{ duration: 0.7, delay: 0.05 }}  className='max-w-[30rem] font-poppins mt-12 lg:mt-10 mx-auto lg:mx-0 2xl:leading-7 md:text-md text-sm' ref={descRef}>
-                        But Floki was tempted by power, not recognizing king or friend. He betrayed Ragnar, almkst6to his death.   Now Ragnar seeks to repay Floki for his treachery in kind.  Being both wise and angry,  Ragnar is torn between revenge and his lifelong friendship with Floki.<br /> <br />
+                        But Floki was tempted by power, not recognizing king or friend. He betrayed Ragnar, almost to his death.   Now Ragnar seeks to repay Floki for his treachery in kind.  Being both wise and angry,  Ragnar is torn between revenge and his lifelong friendship with Floki.<br /> <br />
 
                         He must choose. Give into his rage and kill his lifelong friend or choose the wise path of helping Floki out of the pits of hell and be the king of all Vikings.
                     </motion.p>
