@@ -30,21 +30,38 @@ const Roadmap = () => {
 
             <div className='mx-auto w-fit h-auto mt-10 lg:max-w-[20.5rem] max-w-[18.5rem]'>
                 <Slider {...settings}>
-                    <Phase />
-                    <Phase />
-                    <Phase />
-                    <Phase />
+                    <Phase content={<>
+                        ❖ Branding Created <br /><br />
+                        ❖ Website & Whitepaper Live <br /><br />
+                        ❖ Stealth Launch <br /><br />
+                        ❖ Social Channels Live <br /><br />
+                        ❖ Viking Community Growth and Competitions
+                    </>} />
+                    <Phase content={<>
+                        ❖ Social Media Marketing <br /><br />
+                        ❖ Influencer Partnerships & AMAs <br /><br />
+                        ❖ Token Listing Websites
+                    </>} />
+                    <Phase content={<>
+                        ❖ Tier 2 CEX Listings and Tracking <br /><br />
+                        ❖ Portfolio Tacker Live <br /><br />
+                        ❖ Paid Media Campaigns <br /><br />
+                        ❖ Roadmap Update
+                    </>} />
                 </Slider>
 
             </div>
 
             <div className='w-full h-10 mt-14 flex'>
-                <Lines num="1" index={currentSlideIndex}/>
-                <Lines num="2" index={currentSlideIndex}/>
-                <Lines num="3" index={currentSlideIndex}/>
-                <div className='w-[10rem] h-full relative transition-all ease-in-out duration-300' style={ currentSlideIndex === 3 ? {opacity: "100%", scale: "1"} : {opacity: "50%", scale: "0.7"}}>
-                    <div className='absolute h-10 w-10 rounded-full bg-sliderorange flex items-center justify-center text-black font-bold font-poppins z-10 '>
-                        4
+                <Lines num="1" index={currentSlideIndex} />
+                <Lines num="2" index={currentSlideIndex} />
+                <div className='w-[10rem] h-full relative transition-all ease-in-out duration-300' style={currentSlideIndex === 2 ? { opacity: "100%", scale: "1" } : { opacity: "50%", scale: "0.7" }}>
+                    <div className='absolute h-12 w-12 rounded-full flex items-center justify-center text-black font-bold font-poppins z-10 '>
+                        <img src="/shield.webp" alt="Shield" className="absolute z-0 top-[-.3rem] w-[3rem] left-[1px]" />
+                        <p className='relative z-10 text-white'>
+                            3
+
+                        </p>
                     </div>
                 </div>
 
