@@ -54,6 +54,8 @@ const Tokenomics = () => {
                     </motion.h1>
                     <motion.h4 initial={{opacity: 0}} animate={ inView ? {opacity: 1} : {}} transition={{duration: 1, delay: 0.4}} className='text-4xl font-sharp text-center mt-4'>4% Buy and sell</motion.h4>
                 <motion.h4 initial={{opacity: 0}} animate={ inView ? {opacity: 1} : {}} transition={{duration: 1, delay: 0.4}} className='text-4xl font-sharp text-center mt-4'>1 Trillion Supply</motion.h4>
+            <motion.h6 initial={{opacity: 0}} animate={ inView ? {opacity: 1} : {}} transition={{duration: 1, delay: 0.4}} className='text-4xl font-sharp text-center mt-4'>0xf92c421115b1f11203abcfce78eed1aadad3e0a5</motion.h6>
+
             </div>
 
                 <img src="/token.webp" alt="Token" className="absolute bottom-0 right-0 lg:w-[50vh] w-[30vh] md:opacity-100 opacity-20" />
