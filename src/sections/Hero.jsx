@@ -55,11 +55,11 @@ const Hero = () => {
 
                     <motion.div initial={{opacity: 0}} animate={{opacity: 0.8}} transition={{duration: 1, delay: 0.8}} className='flex items-center gap-x-4 mt-10 relative z-10 mx-auto w-fit lg:mx-0'>
                         <button className='px-8 py-3 bg-button font-sharp rounded-full hover:bg-buttonHover transition-colors ease-in-out duration-300'>
-                            BUY TOKEN
+                            <a href="https://app.uniswap.org/#/swap?outputCurrency=0xf92c421115b1f11203abcfce78eed1aadad3e0a5">BUY TOKEN</a>
                         </button>
 
                         <button className='px-8 py-3 bg-button font-sharp rounded-full hover:bg-buttonHover transition-colors ease-in-out duration-300'>
-                            CHARTS
+                            <a href="https://www.dextools.io/app/en/ether/pair-explorer/0xf1edbdf579ad83cc86064bd089300b6b9362f084">CHARTS</a>
                         </button>
                     </motion.div>
                 </div>
