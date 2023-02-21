@@ -44,7 +44,7 @@ const Roadmap = () => {
                     </>} />
                     <Phase content={<>
                         ❖ Tier 2 CEX Listings and Tracking <br /><br />
-                        ❖ Portfolio Tacker Live <br /><br />
+                        ❖ Portfolio Tracker Live <br /><br />
                         ❖ Paid Media Campaigns <br /><br />
                         ❖ Roadmap Update
                     </>} />
