@@ -15,11 +15,11 @@ const Footer = () => {
             </a>
 
             <div className='mx-auto w-fit mt-4 flex gap-x-6 text-4xl'>
-                <a href="" target="_blank">
+                <a href="https://twitter.com/RAGNARerc" target="_blank">
                     <SiTwitter className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
-                <a href="" target="_blank">
+                <a href="https://t.me/RagnarRPortal" target="_blank">
                     <FaTelegramPlane className='hover:scale-[1.1] cursor-pointer transition-all ease-in-out' />
                 </a>
 
