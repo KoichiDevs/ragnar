@@ -74,7 +74,7 @@ const Tokenomics = () => {
                     </motion.h1>
                     <motion.h4 initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.4 }} className='2xl:text-3xl text-2xl font-sharp text-center mt-4'>4% Buy and sell</motion.h4>
                     <motion.h4 initial={{ opacity: 0 }} animate={inView ? { opacity: 1 } : {}} transition={{ duration: 1, delay: 0.4 }} className='text-2xl font-sharp text-center mt-4 2xl:text-3xl'>1 Trillion Supply</motion.h4>
-                    <motion.h4 className='text-2xl font-sharp text-center 2xl:text-3xl truncate mt-4'>{contactAddress}</motion.h4>
+                    <motion.h4 className='text-2xl font-sharp text-center 2xl:text-3xl truncate mt-4 md:block hidden'>{contactAddress}</motion.h4>
 
                     <button className='px-5 py-3 bg-button rounded-lg flex items-center gap-x-2 mx-auto mt-4' onClick={handleCopy}>
                         <BiClipboard className='text-2xl' />
