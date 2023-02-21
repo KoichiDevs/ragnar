@@ -27,6 +27,13 @@ const About = () => {
 
                         He must choose. Give into his rage and kill his lifelong friend or choose the wise path of helping Floki out of the pits of hell and be the king of all Vikings.
                     </motion.p>
+
+                <motion.div initial={{opacity: 0}} animate={{opacity: 0.8}} transition={{duration: 1, delay: 0.8}} className='flex items-center gap-x-4 mt-10 relative z-10 mx-auto w-fit lg:mx-0'>
+                        <button className='px-8 py-3 bg-button font-sharp rounded-full hover:bg-buttonHover transition-colors ease-in-out duration-300'>
+                            <a href="https://medium.com/@ragnarerc2023">READ MEDIUM</a>
+                        </button>
+
+                    </motion.div>
                 </div>
             </div>
         </section>
